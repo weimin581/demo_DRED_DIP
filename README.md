@@ -1,5 +1,5 @@
 # demo_DRED-DIP
-# eep Image Prior (DIP) has emerged as a powerful image restoration technique, but it still faces limitations.
+# Deep Image Prior (DIP) has emerged as a powerful image restoration technique, but it still faces limitations.
 # Particularly, DIP struggles when handling complex degradation scenarios involving mixed image artifacts. 
 # To address this limitation, we propose a novel technique to enhance Deep Image Prior's performance in handling mixed image degradation. 
 # Our approach leverages additional priors and incorporates advanced regularization methods into the optimization process of DIP. 
