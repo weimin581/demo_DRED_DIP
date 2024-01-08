@@ -1,9 +1,1 @@
-# demo_DRED-DIP
-# Deep Image Prior (DIP) has emerged as a powerful image restoration technique, but it still faces limitations.
-# Particularly, DIP struggles when handling complex degradation scenarios involving mixed image artifacts. 
-# To address this limitation, we propose a novel technique to enhance Deep Image Prior's performance in handling mixed image degradation. 
-# Our approach leverages additional priors and incorporates advanced regularization methods into the optimization process of DIP. 
-# Experimental results demonstrate the effectiveness of our proposed improvement, showing significant improvements in restoring images corrupted by mixed degradation. 
-# We compare our method against state-of-the-art approaches and highlight its superiority in terms of both visual quality and quantitative metrics. 
-# Our research provides a valuable enhancement to the Deep Image Prior framework, offering a more robust solution for image restoration in 
-# challenging mixed degradation scenarios.
+Deep Image Prior (DIP) is a powerful unsupervised learning image restoration technique. However, DIP struggles when handling complex degradation scenarios involving mixed image artifacts. To address this limitation, we propose a novel technique to enhance DIP’s performance in handling mixed image degradation. Our method leverages additional deep denoiser, which is deployed as a denoising engine in the regularization by denoising (RED) framework. A new objective function is constructed by combining DIP with RED, and solved by the alternating direction method of multiplier (ADMM) algorithm. Our method explicitly learns a more comprehensive representation of the underlying image structure and being robust to different types of degradation. Experimental results demonstrate the effectiveness of our method, showing effective improvements in restoring images corrupted by mixed degradation on several image restoration tasks, such as image inpainting, super-resolution and deblurring. 
